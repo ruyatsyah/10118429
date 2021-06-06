@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".main.dashboard.DashboardActivity">
+
+    <ImageView
+        android:src="@drawable/fotopp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="150dp"
+        android:layout_width="150dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/etFoto"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etFoto"
+        android:text="Nim :"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10sp"
+        android:layout_marginRight="30dp"
+        android:id="@+id/etNim"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etNim"
+        android:text="10118429"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10sp"
+        android:layout_marginRight="30dp"
+        android:id="@+id/etNim2"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etNim2"
+        android:text="Nama : "
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10sp"
+        android:layout_marginRight="30dp"
+        android:id="@+id/etNama"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etNama"
+        android:text="RUYATSYAH"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10sp"
+        android:layout_marginRight="30dp"
+        android:id="@+id/etNama2"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etNama2"
+        android:text="Kelas : "
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10sp"
+        android:layout_marginRight="30dp"
+        android:id="@+id/etKelas"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etKelas"
+        android:text="IF-10"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10sp"
+        android:layout_marginRight="30dp"
+        android:id="@+id/etkelas2"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etkelas2"
+        android:text="Alamat Email:"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10sp"
+        android:layout_marginRight="30dp"
+        android:id="@+id/etEmail"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etEmail"
+        android:text="ruyatsyah2203@gmail.com"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10sp"
+        android:layout_marginRight="30dp"
+        android:id="@+id/etDeskripsi2"
+        android:layout_centerHorizontal="true"
+        />
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/navigation_item"
+        app:itemRippleColor="@color/white"
+        app:itemIconTint="@color/white"
+        app:itemTextColor="@color/white">
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+</RelativeLayout>
